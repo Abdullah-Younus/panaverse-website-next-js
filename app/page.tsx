@@ -4,13 +4,14 @@
 // import styles from './page.module.css'
 import Navbar from '@/components/Navbar'
 import { ChakraProvider } from '@chakra-ui/react'
-
+import Main from '@/components/Main';
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <ChakraProvider>
       <Navbar />
+      <Main />
     </ChakraProvider>
   )
 }
