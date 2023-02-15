@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Button, Heading, HStack } from '@chakra-ui/react';
+import Image from 'next/image';
+
 function Main() {
     return (
         <Box h="1000px" bgImage={"/assets/images/banner/bg.png"} bgRepeat="no-repeat" bgSize="cover" bgPosition="center">
@@ -28,14 +30,13 @@ function Main() {
                             backgroundColor={"#28DBD1"}
                             border={"1px solid transparent"}
                             fontWeight={"600"}
-
                         >
                             ExplorelDO
                         </Button>
                     </Box>
                     <Box className='border'>
-                        <h1>dsakfjkdsjfksajkfs</h1>
-                        {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis consectetur quaerat deserunt fuga laudantium ullam quisquam atque? Error inventore a dolores, autem beatae laborum, modi harum impedit soluta cupiditate ratione. */}
+                        <Image width={"100"} height="10" src="/assets/images/banner-thumb/rocketImage.png" alt="animation" />
+
                     </Box>
                 </HStack>
             </Box>
