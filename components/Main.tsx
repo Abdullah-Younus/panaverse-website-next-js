@@ -41,8 +41,15 @@ function Main() {
                         </Box>
                     </HStack>
                 </Box>
+
             </Box>
             {/******** End first section  */}
+
+            {/* start second section  */}
+            <Box className='border w-full h-80'>
+
+            </Box>
+            {/* end second section  */}
 
         </>
 
