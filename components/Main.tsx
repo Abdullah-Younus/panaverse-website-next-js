@@ -6,7 +6,7 @@ function Main() {
     return (
         <>
             {/******** Start first section  */}
-            <Box h="1000px" bgImage={"/assets/images/banner/bg.png"} bgRepeat="no-repeat" bgSize="cover" bgPosition="center">
+            <Box h="800px" bgImage={"/assets/images/banner/bg.png"} bgRepeat="no-repeat" bgSize="cover" bgPosition="center">
                 <Box width={"container.xl"} className='text-white' margin={"0 auto"}>
                     <HStack className=''>
                         <Box className='mt-32 '>
@@ -46,8 +46,69 @@ function Main() {
             {/******** End first section  */}
 
             {/* start second section  */}
-            <Box className='border w-full h-80'>
+            <Box className=' bg-[#02121D] w-full text-[#C1C7CB] block pb-32 pt-10'>
+                <Box width={"container.xl"} className='text-white ' margin={"0 auto"}>
+                    <HStack>
+                        <Box backgroundImage={'/assets/images/project/header.png'} width={"440px"} height={"200px"} backgroundSize={'contain'} backgroundRepeat={'no-repeat'} >
+                            <p style={{ fontSize: "20px", textTransform: "capitalize", fontWeight: "500", color: "#28DBD1", maxInlineSize: "60ch", fontFamily: 'Rajdhani, sans-serif', marginTop: '', display: 'inline-block', marginBlockStart: '1em', marginBlockEnd: '1em' }}>
+                                Trending
+                            </p>
+                            <Heading as={'h2'} lineHeight={"1.10"} display={'block'} fontSize={'calc(1.4rem + 1.8vw)'} fontFamily={'Rajdhani,sans-serif'} color={"#ffffff"} fontWeight={'700'} marginTop={''} marginBottom={'0.5rem'}>
+                                Most Popular IDO
+                                <br />
+                                Projects
+                            </Heading>
+                            <p style={{ marginTop: '0', marginBottom: '1rem', color: '#C1C7CB', fontSize: '1rem', lineHeight: '1.625', fontFamily: "Roboto, sans-serif" }}>
+                                Lorem ipsum dolor sit, amet consectetur
+                                <br />
+                                adipisicing elit. Cum, quod?
+                            </p>
 
+                            {/* <Button
+                                borderRadius={"5px"}
+                                transform={"skew(-5deg)"}
+                                marginTop={"30px"}
+                                textDecoration={"none"}
+                                fontFamily={"Rajdhani, sans-serif"}
+                                color={"black"}
+                                transformOrigin={"right"}
+                                transition={"all 0.3s ease"}
+                                backgroundColor={"#28DBD1"}
+                                border={"1px solid transparent"}
+                                fontWeight={"600"}
+                            >
+                                ExplorelDO
+                            </Button> */}
+                        </Box>
+                        <Box className='w-2/3 flex justify-start box-border'>
+                            <Box className='w-80 shadow-lg rounded-lg mx-12 inline-block'>
+                                <Image src={"/assets/images/igo/item/bg.jpg"} alt={"item-image"} width={400} height={400} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw" />
+                                <Box className='inline-block rounded-lg h-64 w-80 bg-[#0a1f2fcf]'>
+                                    <Box className='w-60 mx-10 m-10 border inline-block'>
+                                        <HStack>
+                                            <p>Round Name:</p>
+                                            <p className='text-[#28DBD1]'>42</p>
+                                        </HStack>
+                                        <HStack>
+                                            <p>Round Name:</p>
+                                            <p className='text-[#28DBD1]'>TBA</p>
+                                        </HStack>
+                                        <HStack>
+                                            <p>Round Name:</p>
+                                            <p className='text-[#28DBD1]'>TBA</p>
+                                        </HStack>
+                                    </Box>
+                                </Box>
+                            </Box>
+                            <Box className='w-80 shadow-lg rounded-xl mx-10 inline-block'>
+                                <Image src={"/assets/images/igo/item/bgs.jpg"} alt={"item-image"} width={400} height={400} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw" />
+                                <Box className='inline-block h-64 rounded-lg w-80 bg-[#0a1f2fcf]'>
+                                    <span>Check</span>
+                                </Box>
+                            </Box>
+                        </Box>
+                    </HStack>
+                </Box>
             </Box>
             {/* end second section  */}
 
